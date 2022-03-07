@@ -1,0 +1,1 @@
+2. Write a program that accepts input number from user and prints the multiplica-tion (1-10) table of the given numberusing for loop. Program should be able toaccept any number - the example below only demonstrates if the users enters 5.ExampleInput•Input num: 5Output•5 * 1 = 5•5 * 2 = 10•5 * 3 = 15•5 * 4 = 20•5 * 5 = 25•5 * 6 = 30•5 * 7 = 35•5 * 8 = 40•5 * 9 = 45•5 * 10 = 50

@@ -1,0 +1,1 @@
+3. Write a program to read 5 numbers from keyboard, using a loop.The program should work withany 5 numbers. Program ends by printing out thesumandaverageof the numbers.
