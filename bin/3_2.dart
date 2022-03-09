@@ -1,20 +1,19 @@
+import 'dart:io';
+void main(List<String> arguments){
 //2.
 // Write a program that accepts input number from user and prints the
 // multiplication (1-10) table of the given number using for loop.
-void main(List<String> arguments) {
-  int userNum = 5; // for demonstration purposes
-
+print('Input a numer. I will multiply it: ');
+  int userNum = int.parse(stdin.readLineSync()!); // TODO: here we go...
   for (int i = 1;i < 11; i++) {
-    margfeldi = userNum * i;
-    print('$userNum * $i = $margfeldi');  }
+    int margfeldi = userNum * i;
+    print('$userNum * $i = $margfeldi');
+  }
 }
 
-// - the example below only
-// demonstrates if the users enters 5.
-// Example Input
-// •Input num: 5
-// Output:
-// userNum * 1 = 5
+// - the example below only demonstrates if the users enters 5.
+// Example •Input num: 5
+// Output: userNum * 1 = 5
 // userNum * 2 = 10
 // userNum * 3 = 15
 // userNum * 4 = 20
